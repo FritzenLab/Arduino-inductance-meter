@@ -5,6 +5,166 @@
 	(uuid "32473f06-79ec-48e6-8a5d-64fca0efb3ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -288,6 +448,487 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -393,6 +1034,168 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -746,9 +1549,212 @@
 			)
 		)
 	)
-	(global_label "5VUSB"
+	(junction
+		(at 109.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cbefc3a-3796-4a81-b457-df9283f9549e")
+	)
+	(junction
+		(at 217.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bcbc62c-b6de-4893-95c3-e8417db443a3")
+	)
+	(junction
+		(at 123.19 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83021ae5-5140-4c25-8b99-e39f50319a60")
+	)
+	(wire
+		(pts
+			(xy 237.49 69.85) (xy 248.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24684444-1eea-4f29-aa8a-4e8a126491b2")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ace083e-dcf1-4724-9d4b-a3cbe33d6dc1")
+	)
+	(wire
+		(pts
+			(xy 212.09 107.95) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a0d8d9-7a24-447d-8701-9589f9b4e808")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681dbef4-f9f8-43f7-9316-0e934c7f63c6")
+	)
+	(wire
+		(pts
+			(xy 229.87 74.93) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2f7672-f9b9-40f0-b0db-2d7ec4bd4e81")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e12f88f-67f6-40a4-9015-f49aeee79c63")
+	)
+	(wire
+		(pts
+			(xy 212.09 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb4351e-bb26-4ee6-a1b2-e937e53afa5b")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80729e50-6613-41e0-8bd9-e093e8cdcc1a")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac622678-c083-409f-a9f2-1285437c3dd5")
+	)
+	(wire
+		(pts
+			(xy 123.19 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8164e0-c05f-4615-a9a8-ed5a06f04c9b")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0319bd-f6d6-40cf-a31c-50212c59c639")
+	)
+	(wire
+		(pts
+			(xy 217.17 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36a798b-2e5c-4492-a948-ccb02cf42a41")
+	)
+	(text "https://www.edn.com/rld-based-astable-555-timer-circuit/"
+		(exclude_from_sim no)
+		(at 226.314 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "940b6201-da74-49ef-b745-6ed7c28a6633")
+	)
+	(label "Frequency output"
+		(at 142.24 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2335e003-beff-44cd-983b-1428aea52cba")
+	)
+	(label "https:{slash}{slash}www.edn.com{slash}inductor-based-astable-555-timer-circuit{slash}"
+		(at 82.55 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f5623f-af14-49dd-af1c-8554f787191d")
+	)
+	(label "Inductor under test"
+		(at 140.97 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70782067-579b-432d-9ee9-9dfa3ab2e973")
+	)
+	(label "Inductor under test"
+		(at 248.92 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71e3feeb-c9c6-489c-957f-7e6a59d52ed9")
+	)
+	(label "Frequency output"
+		(at 250.19 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5518396-eb02-4732-8cc7-d77b08b725fb")
+	)
+	(global_label "TwoSix"
 		(shape input)
-		(at 198.12 63.5 90)
+		(at 121.92 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -756,14 +1762,36 @@
 			)
 			(justify left)
 		)
-		(uuid "07659a00-a907-4658-b859-68da7e30eda3")
+		(uuid "0179bc86-30ec-4edb-b47c-bdcefb48703a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 54.4067 90)
+			(at 131.1947 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix2"
+		(shape input)
+		(at 204.47 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "043dd9f2-35c0-4421-857d-93c679d6d50e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.9858 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -781,6 +1809,226 @@
 		(uuid "0e897e13-8fd5-4183-9f80-c020affd1c67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.3533 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix2"
+		(shape input)
+		(at 229.87 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "113ee508-4b62-472f-8b53-b419bd562051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.3542 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 109.22 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1be934e3-b188-4e7d-934f-935fdecfada7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 91.2367 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix"
+		(shape input)
+		(at 135.89 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f552ee8-5ace-48dd-8a78-8b022eac32eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.6153 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Seven"
+		(shape input)
+		(at 123.19 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "830168f8-eed3-4c99-a4ec-ce3bc01d4861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.6785 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix"
+		(shape input)
+		(at 90.17 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "871b7e72-b9ab-471a-ad22-eaded28bfc68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.8953 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Seven2"
+		(shape input)
+		(at 243.84 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "886aa949-8436-40cf-8002-443808281e93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.142 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 203.2 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b9af4ac-e238-40bd-b823-5088c871571e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 82.3467 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Seven"
+		(shape input)
+		(at 135.89 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a427140f-d0bf-4eda-b989-8405dc3275c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.4015 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix2"
+		(shape input)
+		(at 196.85 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6407461-96fb-4610-b2bb-ca96e74fecf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 109.5442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 217.17 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9d471cd-d8a2-4673-ab0f-5f681af2489f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 91.2367 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,6 +2056,204 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 196.85 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5c2f719-3a69-4d55-8cfd-9a6860c39a4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 82.3467 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Seven2"
+		(shape input)
+		(at 231.14 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5fe4aa6-f117-4b30-9b49-708743d139c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.838 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 134.62 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55057da-6801-4dc4-bc27-dedd5494b72d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 84.0233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Seven2"
+		(shape input)
+		(at 203.2 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7a92605-55a2-4bb0-9422-1af75503e3d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 108.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 204.47 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9f59161-5951-416c-8979-948f59454569")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.3767 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix2"
+		(shape input)
+		(at 243.84 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db359e11-0fb9-4ab9-93e4-f86aa9b0f4d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.3558 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 217.17 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e51b57f7-6303-4a06-8877-2e327ed528e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 55.6767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TwoSix"
+		(shape input)
+		(at 96.52 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0408ce3-b5f2-4a77-9214-96a98dc714d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.2453 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5VUSB"
+		(shape input)
+		(at 96.52 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe870ac3-e63f-476b-9bcd-1e205078614a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.4267 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -880,32 +2326,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 68.58 90)
+		(at 196.85 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61f39eba-1c6c-4136-9a68-b298df010b20")
+		(uuid "15689af8-ae6f-4073-afa7-25db03b62626")
 		(property "Reference" "R2"
-			(at 214.63 62.23 90)
+			(at 199.39 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 214.63 64.77 90)
+			(at 199.39 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 70.358 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 198.628 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 68.58 0)
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +2371,77 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 68.58 0)
+			(at 196.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0c20034-2b72-44b1-a8aa-47c3b5dbc095")
+		)
+		(pin "1"
+			(uuid "ee2f83b5-c40a-445c-9723-bc6b433a3437")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17dce9a0-1259-438d-8e6d-d265db8a54c3")
+		(property "Reference" "#PWR01"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,15 +2450,714 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc73a07d-a9e1-4b95-9d2f-374c7f5b5548")
-		)
-		(pin "2"
-			(uuid "a2535c6a-3e46-4631-a987-8c605b46729c")
+			(uuid "5e239b20-b5ec-45cc-9a59-32f525fb62f6")
 		)
 		(instances
 			(project "Arduino-inductance-meter"
 				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
-					(reference "R2")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 223.52 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a8be6ee-6d1b-4e7d-8b4c-c96e43f5ee81")
+		(property "Reference" "C6"
+			(at 227.33 101.9809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 227.33 104.5209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 224.4852 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4818349a-d794-4779-ac38-c8641dac88df")
+		)
+		(pin "2"
+			(uuid "72efa81e-3bfb-4990-b434-54bc0729bad0")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 140.97 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239c9a21-7c2b-4d7c-ab1a-07cd42f9f01e")
+		(property "Reference" "J3"
+			(at 143.51 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 143.51 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9e80b05-3da2-42a9-a458-997c2ecfff79")
+		)
+		(pin "1"
+			(uuid "b747afa2-bf1c-4fd0-89e2-f8c2cfab3eb7")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a8be385-c962-48b7-a702-c10c6503f34c")
+		(property "Reference" "C2"
+			(at 107.95 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 107.95 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 103.1748 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f25f295-ef11-4345-b7ee-a5d278ef7a86")
+		)
+		(pin "2"
+			(uuid "a102f64d-443e-40ed-a523-3d632806f516")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2542d6-b410-4c27-9ac5-f3eea437b270")
+		(property "Reference" "#PWR06"
+			(at 140.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab238a9-504b-4138-9e7f-eea5ae54bf68")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "411460c5-6c16-44ec-9795-d8ef175824fd")
+		(property "Reference" "R5"
+			(at 233.68 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 233.68 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 233.68 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00d2d5de-a344-4918-af3e-d19203e4b447")
+		)
+		(pin "2"
+			(uuid "c81e9de3-4a04-4d87-9d63-565ac5a28ba5")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a8b54b-dba6-4c3a-8e74-4f7bdc6248b8")
+		(property "Reference" "C1"
+			(at 96.266 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 87.63 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 96.52 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd33e609-ee4e-4ccc-b5ec-257e92192431")
+		)
+		(pin "2"
+			(uuid "46850e88-ebca-4d38-b990-12082f98b630")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 203.2 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dd24494-514c-480f-adda-3cb07bd8beed")
+		(property "Reference" "D1"
+			(at 205.74 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 205.74 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63abeef1-f7eb-4335-af40-da9fcffe2786")
+		)
+		(pin "2"
+			(uuid "c7c43fba-69bb-4b0b-a73c-a288f73cb60c")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69b9f9e1-bca2-4712-9be2-2e495d77fb3a")
+		(property "Reference" "#PWR011"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da6a7d87-9e14-4c5e-9236-bed5bf6ea738")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 115.57 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d6caed-a6c5-43d4-b38e-436a1dcffff6")
+		(property "Reference" "C3"
+			(at 119.38 101.9809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 119.38 104.5209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 116.5352 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19bff1a3-b370-45fb-9a89-7ccf1c0cb981")
+		)
+		(pin "2"
+			(uuid "79c79f78-38df-4207-a9cc-2b4d92648538")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5d80e3-9069-4ea3-a4c9-5f5cd24be29a")
+		(property "Reference" "C4"
+			(at 204.216 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 195.58 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 204.47 73.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1872c2b5-26f6-437a-bb52-59bc61675f6e")
+		)
+		(pin "2"
+			(uuid "3277c5e6-782e-4a19-98a1-214f1538195b")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -972,7 +3189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 43.18 74.93 0)
 			(effects
 				(font
@@ -1178,17 +3395,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 83.82 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 146.05 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9cdbc616-d3e8-4309-9921-b1571528323f")
-		(property "Reference" "#PWR01"
-			(at 198.12 90.17 0)
+		(uuid "930b83a7-472e-4922-9726-d469f221fa21")
+		(property "Reference" "J2"
+			(at 147.32 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 147.32 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,16 +3431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 83.82 0)
+		(property "Datasheet" "~"
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,8 +3440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 198.12 83.82 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,8 +3449,69 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 83.82 0)
+		(pin "2"
+			(uuid "b49c28cc-37c9-4702-a748-7944471d2733")
+		)
+		(pin "1"
+			(uuid "547c8ae3-5d66-43eb-a1f1-0c370fd76bfa")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca466ce-fc54-4896-89de-27deb971e76f")
+		(property "Reference" "C5"
+			(at 215.9 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 215.9 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 211.1248 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,12 +3520,287 @@
 			)
 		)
 		(pin "1"
-			(uuid "12d7d8b8-8534-4421-bd2c-41906f59b048")
+			(uuid "bedce04b-44d8-4d7a-b423-55454555ad05")
+		)
+		(pin "2"
+			(uuid "51787d91-43cf-4c4a-8475-267d827ce40f")
 		)
 		(instances
 			(project "Arduino-inductance-meter"
 				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
-					(reference "#PWR01")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4554548-b202-4c61-ba36-01a1af837489")
+		(property "Reference" "#PWR07"
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01663272-9b9c-4813-8ecd-cebf3d60d267")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b0e71e-163f-4978-a9a8-92649f481fad")
+		(property "Reference" "R4"
+			(at 92.71 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 92.71 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 91.948 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b78c580d-d085-4d4e-b0c6-983a5e59175a")
+		)
+		(pin "1"
+			(uuid "d3954014-8b6e-4668-b98b-dc72edae645f")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 248.92 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c264322c-d9e2-48ff-b97a-e08a26b7b647")
+		(property "Reference" "J4"
+			(at 251.46 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 251.46 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 248.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a15b427-f1fb-4906-8fd0-269733417822")
+		)
+		(pin "1"
+			(uuid "3d492e31-3172-4a8f-9394-4b833171623a")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4cd79bf-3016-4979-ae2e-1377c089c202")
+		(property "Reference" "#PWR09"
+			(at 217.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acd1bc1b-62ea-4dda-9ceb-80cabb076956")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1261,7 +3824,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 125.73 66.04 90)
 			(effects
 				(font
@@ -1269,7 +3832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 71.628 90)
 			(effects
 				(font
@@ -1312,17 +3875,153 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer:NE555P")
-		(at 198.12 73.66 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 254 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee8ff79a-7a2f-4839-88a2-75b2a107e06c")
+		(uuid "c941bb3e-a2b4-48f5-94b5-0153dab7d274")
+		(property "Reference" "J5"
+			(at 255.27 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 255.27 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01117e06-c918-44aa-b732-59ea9c9eedb5")
+		)
+		(pin "1"
+			(uuid "829f359d-258b-4765-b700-8174a0c672c3")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caae6987-6265-4816-a8c6-9dca5a6bcfd7")
+		(property "Reference" "#PWR05"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a71cd428-e525-4d83-9529-f29161bbd3d9")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timer:NE555P")
+		(at 217.17 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb9fcd54-58e8-4a40-8828-e137aa15b0c5")
 		(property "Reference" "U2"
-			(at 200.3141 60.96 0)
+			(at 219.3641 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +4030,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 200.3141 63.5 0)
+			(at 219.3641 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +4039,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 214.63 83.82 0)
+			(at 233.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +4048,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 219.71 83.82 0)
+			(at 238.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +4057,7 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
-			(at 198.12 73.66 0)
+			(at 217.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,33 +4066,233 @@
 			)
 		)
 		(pin "8"
-			(uuid "404212e3-4d7c-4b25-bd4e-e7fc599612c6")
+			(uuid "8977c0ed-ead4-4696-94e1-49fae74b7554")
 		)
 		(pin "5"
-			(uuid "26a41fe8-b237-485e-80de-b2824cc30f4e")
+			(uuid "ce4fe241-4558-488d-914f-37e29d32f18d")
 		)
 		(pin "4"
-			(uuid "f086b00b-1a56-4c3c-bb11-b20bc304e545")
+			(uuid "d5b2f4b4-3bf2-41c0-97dd-1981954f918a")
 		)
 		(pin "3"
-			(uuid "bc2880c4-d2e6-41db-8ca8-a9b3511e675b")
+			(uuid "9fcf2c3d-709d-4a01-a962-2dac4bd1bbbc")
 		)
 		(pin "1"
-			(uuid "605922bb-7866-48a9-90d1-61ff6c06627f")
+			(uuid "99707c53-fec6-48aa-bb39-2ed6a25909f9")
 		)
 		(pin "2"
-			(uuid "0368da4c-a19c-497c-9502-ddd7e0b6fc9c")
+			(uuid "bc0f5f5e-f491-41d1-ba48-2175016357e3")
 		)
 		(pin "6"
-			(uuid "f257f701-158d-4b4a-bb5b-7533ce4d87ca")
+			(uuid "374d403b-a01d-41b6-bc58-a39588e61ada")
 		)
 		(pin "7"
-			(uuid "fc2b6e52-ae8f-4254-a27d-a46533d8bb1b")
+			(uuid "3cf79835-88ad-400c-ad99-22a1b8a4ceaf")
 		)
 		(instances
 			(project "Arduino-inductance-meter"
 				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e59f5a23-ab60-475b-b061-105374587eb7")
+		(property "Reference" "#PWR010"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de6962b-4176-404d-8c87-e3d187a0af26")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5bb8f3c-bac2-4435-8606-5be844ebbe68")
+		(property "Reference" "#PWR04"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16a452f-1161-4e04-920a-44117547601d")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdee9ed5-162c-4e9c-87a8-5d4ada5c7b28")
+		(property "Reference" "R3"
+			(at 134.874 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 136.652 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 130.81 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c24ee5dc-03e0-430c-a254-1b4f450c5b07")
+		)
+		(pin "1"
+			(uuid "17d58df5-a83f-4277-a4ce-369eca175bbb")
+		)
+		(instances
+			(project "Arduino-inductance-meter"
+				(path "/32473f06-79ec-48e6-8a5d-64fca0efb3ea"
+					(reference "R3")
 					(unit 1)
 				)
 			)
